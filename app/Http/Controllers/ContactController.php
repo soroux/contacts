@@ -6,6 +6,14 @@ use App\Models\Contact;
 use App\Http\Requests\StoreContactRequest;
 use App\Http\Requests\UpdateContactRequest;
 
+
+
+/**
+ * @group Contacts management
+ *
+ * @authenticated
+ * APIs for managing Contacts
+ */
 class ContactController extends Controller
 {
     /**
